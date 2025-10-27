@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(){
+    int x = 5;
+    int y = 2;
+    printf("%d",x+y);
+    printf("\n%d",x-y);
+    printf("\n%d",x*y);
+    printf("\n%d",x/y);  //these give me in output is 2 because its both divisible no. is integer so it gives me integer value not float value
+    return 0;
+}
