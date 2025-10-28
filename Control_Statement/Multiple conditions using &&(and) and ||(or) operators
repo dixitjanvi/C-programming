@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main(){
+    int n;
+    printf("Enter a number:");
+    scanf("%d",&n);
+    if(n>5){
+        printf("number is greater then");
+    }
+    else{
+        printf("number is not greater then");
+    }
+    return 0;
+}
