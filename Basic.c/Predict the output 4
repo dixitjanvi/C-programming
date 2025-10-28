@@ -1,0 +1,9 @@
+//The expression x = 4 + 2 % - 8 evalutes to
+
+#include <stdio.h>
+int main(){
+    int x;
+    x = 4 + 2 % - 8;   // 2 % - 8 = 2 % 8 is equal
+    printf("%d",x);
+    return 0;
+}
