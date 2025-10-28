@@ -1,0 +1,19 @@
+// Take 3 positive integers input and print the greatest of them.
+
+
+#include<stdio.h>
+int main(){
+    int a,b,c;
+    printf("Enter a number:");
+    scanf("%d %d %d" ,&a,&b,&c);
+    if(a>b && c<a){
+        printf("a is greatest");
+    }
+    else if(b>a && c<b){
+        printf("b is greatest");
+    }
+    else{
+        printf("c is greatest");
+    }
+    return 0;
+}
