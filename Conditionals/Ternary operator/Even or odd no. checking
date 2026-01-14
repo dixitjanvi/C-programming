@@ -1,0 +1,13 @@
+//Ternary operator(cool way to write if-else code)
+//Expression 1? Expression 2: Expression 3;
+//WAP to check if no. is even or odd.
+#include<stdio.h>
+int main(){
+    int x;
+    printf("Enter a number:");
+    scanf("%d",&x);
+    
+  //Condition ? True : False;      
+    (x%2==0) ? printf("Even number") : printf("Odd number");
+    return 0;
+}
