@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+    char x = '+';
+    int ascii = (int) x;               //explicit type casting
+    printf("%d\n",ascii);
+    return 0;
+}
