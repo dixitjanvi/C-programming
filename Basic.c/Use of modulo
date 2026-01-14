@@ -1,8 +1,0 @@
-#include <stdio.h>
-int main(){
-    int a = -5;   //a>b
-    int b = 15;
-    int r = a % b;
-    printf("%d",r);
-    return 0;
-}
