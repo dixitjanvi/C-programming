@@ -1,0 +1,24 @@
+//Take input percentage of a student and print the grade according to marks.
+#include<stdio.h>
+int main(){
+    int x;
+    printf("Enter the percentage:");
+    scanf("%d",&x);
+    
+    if(x>=91 && x<=100) {
+        printf("Grade A");
+    }
+    else if(x>=71 && x<=80) {
+            printf("Grade B");
+        }else if(x>=61 && x<=70) {
+                printf("Grade C");
+            }else if(x>=41 && x<=60) {
+                    printf("Grade D");
+                }else{
+                    printf("Fail");
+                }
+            }
+        }
+    }
+    return 0;
+}
