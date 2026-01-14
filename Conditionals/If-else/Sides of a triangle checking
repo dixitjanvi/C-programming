@@ -1,0 +1,19 @@
+//Take three numbers input and tell if they can be the sides of a triangle.
+#include<stdio.h>
+int main(){
+    int x,y,z;
+    printf("Enter the value of x:");
+    scanf("%d",&x);
+    printf("Enter the value of y:");
+    scanf("%d",&y);
+    printf("Enter the value of z:");
+    scanf("%d",&z);
+    
+    if(x+y>z && y+z>x && x+z>y){
+        printf("It's side of a triangle.");
+    }
+    else{
+        printf("It's not a side of a triangle.");
+    }
+    return 0;
+}
