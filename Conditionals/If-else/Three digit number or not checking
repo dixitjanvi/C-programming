@@ -1,0 +1,15 @@
+//Take positive integer input and tell if it is a three digit number or not.
+#include<stdio.h>
+int main(){
+    int x;
+    printf("Enter a number:");
+    scanf("%d",&x);
+    // & stands for logical and 
+    if(x>99 & x<=999) {
+        printf(" It's a three digit number.");
+    }
+    else{
+        printf("It's not a three digit number.");
+    }
+    return 0;
+}
