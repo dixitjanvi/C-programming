@@ -1,0 +1,25 @@
+//Take three positive integers input and print the greatest of them.
+#include<stdio.h>
+int main(){
+    int x,y,z;
+    printf("Three positive integer input:\n");
+    printf("Enter the value of first integer:");
+    scanf("%d",&x);
+    printf("Enter the value of second integer:");
+    scanf("%d",&y);
+    printf("Enter the value of third integer:");
+    scanf("%d",&z);
+    
+    if(x>y){
+        printf("First integer is greatest.");
+    }
+    else{
+        if(y>z){
+            printf("Second integer is greatest.");
+        }
+        else{
+            printf("Third integer is greatest.");
+        }
+    }
+    return 0;
+}
