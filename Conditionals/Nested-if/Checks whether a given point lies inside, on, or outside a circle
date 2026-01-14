@@ -1,0 +1,41 @@
+//Given the coordinates(a,b) of a center of a circle and it's radius .write a program which will 
+//determine whether a user entered point lies inside the circle,on the circle or outside the circle. 
+//Conditions:
+//Inside circle → distance² < r²
+//On the circle → distance² == r²
+//Outside circle → distance² > r²
+
+
+#include <stdio.h>
+int main(){
+    int a,b,x,y,r,d;
+
+    // Input center of circle
+    printf("Enter center of circle (a b): ");
+    scanf("%d %d", &a, &b);
+
+    // Input radius
+    printf("Enter radius of circle: ");
+    scanf("%d", &r);
+
+    // Input point
+    printf("Enter point (x y): ");
+    scanf("%d %d", &x, &y);
+
+    // Calculate square of distance
+    d = (x - a) * (x - a) + (y - b) * (y - b);
+
+    if (d <= r * r)
+    {
+        if (d == r * r)
+            printf("Point lies ON the circle");
+        else
+            printf("Point lies INSIDE the circle");
+    }
+    else
+    {
+        printf("Point lies OUTSIDE the circle");
+    }
+
+    return 0;
+}
