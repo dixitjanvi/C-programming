@@ -1,0 +1,30 @@
+//WAP to create a calculator and perform all the operations.
+#include<stdio.h>
+int main(){
+    char ch;
+    printf("Enter the operator:");
+    scanf("%c",&ch);
+    int x,y;
+    printf("Enter the 1st operand:");
+    scanf("%d",&x);
+    printf("Enter the 2nd operand:");
+    scanf("%d",&y);
+    
+    switch(ch){
+        case '+':
+          printf("Addition is:%d",x+y);
+          break;
+        case '-':
+          printf("Subtraction is:%d",x-y);
+          break;
+        case '*':
+          printf("Multiplication is:%d",x*y);
+          break;
+        case '/':
+          printf("Division is:%d",x/y);
+          break;
+        default:
+          printf("Invalid operator");
+    }
+    return 0;
+}
