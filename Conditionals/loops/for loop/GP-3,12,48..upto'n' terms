@@ -1,0 +1,15 @@
+//Display this GP-3,12,48..upto'n' terms.(Geometric progression)
+#include<stdio.h>
+int main(){
+    printf("GP-3,12,48...upto'n' terms:\n");
+    int n;
+    printf("Enter a number of terms:");
+    scanf("%d",&n);
+    
+    int a = 3;
+    for(int i=1; i<=n; i++){
+        printf("%d\n",a);
+        a = a * 4;
+    }
+    return 0;
+}
