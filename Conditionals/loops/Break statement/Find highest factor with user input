@@ -1,0 +1,34 @@
+//Find the highest factor of a given number'n'.[Except'n']
+#include<stdio.h>
+int main(){
+    int n;
+    printf("Enter a number of terms:");
+    scanf("%d",&n);
+    
+    int hf = 1;
+    for(int i=1; i<=n-1; i++){
+        if(n%i==0) hf = i;
+    }
+    printf("Highest factor is %d:",hf);
+    return 0;
+}
+
+
+
+//Method-2
+/*#include<stdio.h>
+int main(){
+    int n;
+    printf("Enter a number of terms:");
+    scanf("%d",&n);
+    
+    int hf = 1;
+    for(int i=n/2; i>=1; i--){
+        if(n%i==0){
+            hf = i;
+            break;
+        }
+    }
+    printf("Highest factor is %d:",hf);
+    return 0;
+}*/
