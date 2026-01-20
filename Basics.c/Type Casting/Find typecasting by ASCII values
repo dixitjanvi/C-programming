@@ -1,0 +1,32 @@
+#include<stdio.h>
+int main(){
+    char x = '+';
+    int ascii = (int) x;               //explicit type casting
+    printf("%d\n",ascii);
+    return 0;
+}
+
+
+/*#include<stdio.h>
+int main(){
+    int x = 96;               
+    printf("%c",x);
+    return 0;
+}*/
+
+/*#include<stdio.h>
+int main(){
+    float x = 5/2;
+    printf("%f",x);     //output-2.000000
+    return 0;
+}*/
+
+
+/*#include<stdio.h>
+int main(){
+    float a = 5;
+    float b = 2;
+    float x = a/b;
+    printf("%f",x);       //output-2.500000
+    return 0;
+}*/
