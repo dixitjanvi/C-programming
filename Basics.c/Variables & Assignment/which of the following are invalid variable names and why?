@@ -1,0 +1,35 @@
+#include <stdio.h>
+int main(){
+    int BASICSALARY = 40000; 
+    int _basic = 30000;
+    int basic-hra = 20000;                   // - is not allowed in variable name
+    int #MEAN = 50000;                       // # is not allowed in variable name
+    int group. = 60000;                      // . is not allowed in variable name
+    int 422 = 70000;                         // variable name cannot start with a digit
+    int population in 2006 = 800000000;      // blank space is not allowed in variable name
+    int over time = 90000;                   // blank space is not allowed in variable name
+    int mindovermatter = 100000;
+    int FLOAT = 110000;
+    int hELLO = 120000;
+    int queue. = 130000;                    // . is not allowed in variable name
+    int Plot#3 = 150000;                    // # is not allowed in variable name
+    int 2015_DDay = 160000;                 // variable name cannot start with a digit
+    int team'svictory = 140000;             // ' is not allowed in variable name
+
+    printf("%d\n", BASICSALARY);
+    printf("%d\n", _basic);
+    printf("%d\n", basic-hra);
+    printf("%d\n", #MEAN);
+    printf("%d\n", group.);
+    printf("%d\n", 422);
+    printf("%d\n", population in 2006);
+    printf("%d\n", over time);
+    printf("%d\n", mindovermatter);
+    printf("%d\n", FLOAT);
+    printf("%d\n", hELLO);
+    printf("%d\n", queue.);
+    printf("%d\n", Plot#3);
+    printf("%d\n", 2015_DDay);
+    printf("%d\n", team'svictory);
+    return 0;
+}
