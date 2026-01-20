@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main() {
+    int a = 10;
+    int b = 20;
+    float pi = 3.14159;
+    char ch = 'A';
+    char str[] = "Hello";
+    unsigned int u = 25;
+    long bigNum = 123456789;
+    double d = 12.3456789;
+    int *ptr = &a;
+
+    printf("Integer : %d\n", a);
+    printf("Integer : %i\n", b);
+    printf("Float : %f\n", pi);
+    printf("Float with 2 decimals : %.2f\n", pi);
+    printf("Character : %c\n", ch);
+    printf("String : %s\n", str);
+    printf("Unsigned : %u\n", u);
+    printf("Long integer : %ld\n", bigNum);
+    printf("Double : %lf\n", d);
+    printf("Pointer : %p\n", ptr);
+    printf("Octal : %o\n", a);
+    printf("Hex lowercase : %x\n", a);
+    printf("Hex uppercase : %X\n", a);
+    return 0;
+}
