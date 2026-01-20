@@ -1,0 +1,5 @@
+#include<stdio.h>
+int main() {
+  printf("hello world"); //printf use for print the statement
+  return 0;
+}
