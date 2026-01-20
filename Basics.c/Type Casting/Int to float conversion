@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+    int x;
+    printf("Enter a number:");
+    scanf("%d",&x);
+    //type Typecasting
+    float f = (float)x;            //float f it's a box
+    printf("%f",f/2);
+    return 0;
+}
