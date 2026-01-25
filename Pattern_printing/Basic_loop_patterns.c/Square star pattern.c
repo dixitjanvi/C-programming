@@ -2,8 +2,7 @@
 int main(){
     int n;
     printf("Enter a number:");
-    scanf("%d",&n);
-    //**********... upto n no of stars
+    scanf("%d",&n);                            //**********... upto n no of stars
     for(int i=1; i<=n; i++){                  //outer loop-> no of lines (rows)
         for(int j=1; j<=n; j++){             //inner loop-> no of stars in each line (columns)
             printf("*");
