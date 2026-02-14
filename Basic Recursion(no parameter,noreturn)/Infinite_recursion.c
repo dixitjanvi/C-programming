@@ -1,3 +1,4 @@
+//greet()
 #include<stdio.h>
 void greet(){
     printf("Good Morning\n");
