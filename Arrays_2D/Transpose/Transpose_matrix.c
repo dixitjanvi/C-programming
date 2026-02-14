@@ -1,3 +1,4 @@
+//WAP to print the transpose of the matrix entered by the user.
 #include<stdio.h>
 int main(){
     int a[3][3]={{1,2,3},{4,5,6},{7,8,9}};
