@@ -1,3 +1,4 @@
+//Find the sum of all elements in a given matrix.
 #include<stdio.h>
 int main(){
     int a[3][3]={1,2,3,4,5,6,7,8,9};
