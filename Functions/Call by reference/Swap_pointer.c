@@ -1,14 +1,34 @@
+//Method-I
 #include<stdio.h>
-
-void swap(int *x,int *y){
-    int t=*x;
-    *x=*y;
-    *y=t;
-}
-
 int main(){
-    int a,b;
-    scanf("%d %d",&a,&b);
-    swap(&a,&b);
-    printf("%d %d",a,b);
+    int x;
+    scanf("%d",&x);
+    int y;
+    scanf("%d",&y);
+    printf("%d %d\n",x,y);
+    //Swap
+    int temp = x;
+    x = y;
+    y = temp;
+    printf("%d %d\n",x,y);
+    return 0;
 }
+
+
+//Method-II
+#include<stdio.h>
+int main(){
+    int x;
+    scanf("%d",&x);
+    int y;
+    scanf("%d",&y);
+    printf("%d %d\n",x,y);
+    
+    //Swap
+    x=x+y;
+    y=x-y;
+    x=x-y;
+    printf("%d %d\n",x,y);
+    return 0;
+}
+
