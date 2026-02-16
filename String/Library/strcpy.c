@@ -1,4 +1,5 @@
 //deepcopy
+//strcpy() → Copies one string completely into another string.
 #include<stdio.h>
 #include<string.h>
 int main(){
