@@ -1,3 +1,4 @@
+//strcat() → Joins (concatenates) two strings together.
 #include<stdio.h>
 #include<string.h>
 int main(){
