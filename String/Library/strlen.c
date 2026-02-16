@@ -1,3 +1,4 @@
+//strlen() → Returns the length of a string (excluding \0).
 #include<stdio.h>
 #include<string.h>
 int main(){
